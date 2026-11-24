@@ -1,0 +1,27 @@
+name: IndexNow
+on:
+  push:
+    branches: [main]
+permissions:
+  contents: read
+jobs:
+  submit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+      - name: Submit changed pages
+        run: |
+          set -euo pipefail
+          KEY=$(ls | grep -E '^[0-9a-f]{32}\.txt$' | head -1 | sed 's/\.txt$//')
+          [ -n "$KEY" ] || { echo "no key file"; exit 0; }
+          git diff --name-only HEAD~1 HEAD -- '*.html' \
+            | sed -E 's#(^|/)index\.html$#\1#; s#^#https://plugintrace.com/#' > urls.txt || true
+          [ -s urls.txt ] || { echo "no page changes"; exit 0; }
+          sleep 120   # let GitHub Pages deploy first
+          URLS=$(jq -R . urls.txt | jq -s -c .)
+          curl -sS -o /dev/null -w "IndexNow: %{http_code}\n" -X POST https://api.indexnow.org/indexnow \
+            -H "Content-Type: application/json; charset=utf-8" \
+            -d "{\"host\":\"plugintrace.com\",\"key\":\"$KEY\",\"keyLocation\":\"https://plugintrace.com/$KEY.txt\",\"urlList\":$URLS}"
+          cat urls.txt

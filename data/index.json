@@ -1,0 +1,192 @@
+{
+ "name": "PluginTrace open data",
+ "license": "https://creativecommons.org/licenses/by/4.0/",
+ "method": "https://plugintrace.com/method/",
+ "updated": "2026-11-24",
+ "reports": [
+  {
+   "slug": "contact-form-7",
+   "plugin": "Contact Form 7",
+   "version": "6.2.6",
+   "tested": "20261124",
+   "report": "https://plugintrace.com/plugins/contact-form-7/",
+   "data": "https://plugintrace.com/data/contact-form-7.json"
+  },
+  {
+   "slug": "elementor",
+   "plugin": "Elementor Agent Ready Website Builder",
+   "version": "4.4.1",
+   "tested": "20261124",
+   "report": "https://plugintrace.com/plugins/elementor/",
+   "data": "https://plugintrace.com/data/elementor.json"
+  },
+  {
+   "slug": "wordpress-seo",
+   "plugin": "Yoast SEO",
+   "version": "28.9",
+   "tested": "20261124",
+   "report": "https://plugintrace.com/plugins/wordpress-seo/",
+   "data": "https://plugintrace.com/data/wordpress-seo.json"
+  },
+  {
+   "slug": "classic-editor",
+   "plugin": "Classic Editor",
+   "version": "1.7.0",
+   "tested": "20261124",
+   "report": "https://plugintrace.com/plugins/classic-editor/",
+   "data": "https://plugintrace.com/data/classic-editor.json"
+  },
+  {
+   "slug": "litespeed-cache",
+   "plugin": "LiteSpeed Cache",
+   "version": "7.9.3",
+   "tested": "20261124",
+   "report": "https://plugintrace.com/plugins/litespeed-cache/",
+   "data": "https://plugintrace.com/data/litespeed-cache.json"
+  },
+  {
+   "slug": "woocommerce",
+   "plugin": "WooCommerce",
+   "version": "11.3.1",
+   "tested": "20261124",
+   "report": "https://plugintrace.com/plugins/woocommerce/",
+   "data": "https://plugintrace.com/data/woocommerce.json"
+  },
+  {
+   "slug": "all-in-one-wp-migration",
+   "plugin": "All-in-One WP Migration and Backup",
+   "version": "7.113",
+   "tested": "20261124",
+   "report": "https://plugintrace.com/plugins/all-in-one-wp-migration/",
+   "data": "https://plugintrace.com/data/all-in-one-wp-migration.json"
+  },
+  {
+   "slug": "google-site-kit",
+   "plugin": "Site Kit by Google",
+   "version": "1.192.0",
+   "tested": "20261124",
+   "report": "https://plugintrace.com/plugins/google-site-kit/",
+   "data": "https://plugintrace.com/data/google-site-kit.json"
+  },
+  {
+   "slug": "wordfence",
+   "plugin": "Wordfence Security",
+   "version": "9.1.1",
+   "tested": "20261124",
+   "report": "https://plugintrace.com/plugins/wordfence/",
+   "data": "https://plugintrace.com/data/wordfence.json"
+  },
+  {
+   "slug": "wpforms-lite",
+   "plugin": "WPForms",
+   "version": "2.0.5.1",
+   "tested": "20261124",
+   "report": "https://plugintrace.com/plugins/wpforms-lite/",
+   "data": "https://plugintrace.com/data/wpforms-lite.json"
+  },
+  {
+   "slug": "seo-by-rank-math",
+   "plugin": "Rank Math SEO",
+   "version": "1.0.282",
+   "tested": "20261124",
+   "report": "https://plugintrace.com/plugins/seo-by-rank-math/",
+   "data": "https://plugintrace.com/data/seo-by-rank-math.json"
+  },
+  {
+   "slug": "updraftplus",
+   "plugin": "UpdraftPlus",
+   "version": "1.26.16",
+   "tested": "20261124",
+   "report": "https://plugintrace.com/plugins/updraftplus/",
+   "data": "https://plugintrace.com/data/updraftplus.json"
+  },
+  {
+   "slug": "wp-mail-smtp",
+   "plugin": "WP Mail SMTP by WPForms",
+   "version": "4.10.4",
+   "tested": "20261124",
+   "report": "https://plugintrace.com/plugins/wp-mail-smtp/",
+   "data": "https://plugintrace.com/data/wp-mail-smtp.json"
+  },
+  {
+   "slug": "duplicate-page",
+   "plugin": "Duplicate Page",
+   "version": "4.5.9",
+   "tested": "20261124",
+   "report": "https://plugintrace.com/plugins/duplicate-page/",
+   "data": "https://plugintrace.com/data/duplicate-page.json"
+  },
+  {
+   "slug": "jetpack",
+   "plugin": "Jetpack",
+   "version": "16.4",
+   "tested": "20261124",
+   "report": "https://plugintrace.com/plugins/jetpack/",
+   "data": "https://plugintrace.com/data/jetpack.json"
+  },
+  {
+   "slug": "really-simple-ssl",
+   "plugin": "Really Simple Security",
+   "version": "9.8.4",
+   "tested": "20261124",
+   "report": "https://plugintrace.com/plugins/really-simple-ssl/",
+   "data": "https://plugintrace.com/data/really-simple-ssl.json"
+  },
+  {
+   "slug": "insert-headers-and-footers",
+   "plugin": "WPCode",
+   "version": "2.4.2",
+   "tested": "20261124",
+   "report": "https://plugintrace.com/plugins/insert-headers-and-footers/",
+   "data": "https://plugintrace.com/data/insert-headers-and-footers.json"
+  },
+  {
+   "slug": "duplicate-post",
+   "plugin": "Yoast Duplicate Post",
+   "version": "4.7",
+   "tested": "20261124",
+   "report": "https://plugintrace.com/plugins/duplicate-post/",
+   "data": "https://plugintrace.com/data/duplicate-post.json"
+  },
+  {
+   "slug": "all-in-one-seo-pack",
+   "plugin": "All in One SEO",
+   "version": "5.0.5.1",
+   "tested": "20261124",
+   "report": "https://plugintrace.com/plugins/all-in-one-seo-pack/",
+   "data": "https://plugintrace.com/data/all-in-one-seo-pack.json"
+  },
+  {
+   "slug": "redirection",
+   "plugin": "Redirection",
+   "version": "5.10.1",
+   "tested": "20261124",
+   "report": "https://plugintrace.com/plugins/redirection/",
+   "data": "https://plugintrace.com/data/redirection.json"
+  },
+  {
+   "slug": "polylang",
+   "plugin": "Polylang",
+   "version": "3.9.2",
+   "tested": "20261124",
+   "report": "https://plugintrace.com/plugins/polylang/",
+   "data": "https://plugintrace.com/data/polylang.json"
+  },
+  {
+   "slug": "wp-statistics",
+   "plugin": "WP Statistics",
+   "version": "14.16.20",
+   "tested": "20261124",
+   "report": "https://plugintrace.com/plugins/wp-statistics/",
+   "data": "https://plugintrace.com/data/wp-statistics.json"
+  },
+  {
+   "slug": "add-to-any",
+   "plugin": "AddToAny Share Buttons",
+   "version": "1.8.18",
+   "tested": "20261124",
+   "report": "https://plugintrace.com/plugins/add-to-any/",
+   "data": "https://plugintrace.com/data/add-to-any.json"
+  }
+ ]
+}

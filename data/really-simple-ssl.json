@@ -1,0 +1,73 @@
+{
+ "slug": "really-simple-ssl",
+ "version": "9.8.4",
+ "wordpress": "7.1.5",
+ "run": "20261124T102335Z",
+ "outbound": [],
+ "browser": {
+  "ran": true,
+  "visitor": {
+   "third_party": [],
+   "cookies": [],
+   "local_storage": []
+  },
+  "admin": {
+   "third_party": [],
+   "cookies": [],
+   "local_storage": []
+  }
+ },
+ "dns_hosts": [],
+ "core_calls_ignored": 40,
+ "self_calls": 2,
+ "php": "8.3.37",
+ "mail": [],
+ "caching": {
+  "cache_safe": true,
+  "findings": []
+ },
+ "storage": {
+  "tables": {
+   "added": [],
+   "left_after_uninstall": []
+  },
+  "options": {
+   "added": [
+    "rsssl_admin_notices",
+    "rsssl_current_version",
+    "rsssl_encryption_keys_set",
+    "rsssl_plusone_count",
+    "rsssl_port_check_2082",
+    "rsssl_port_check_2222",
+    "rsssl_port_check_8443",
+    "rsssl_redirect_to_settings_page",
+    "rsssl_show_onboarding"
+   ],
+   "left_after_uninstall": [
+    "rsssl_admin_notices",
+    "rsssl_current_version",
+    "rsssl_encryption_keys_set",
+    "rsssl_htaccess_deactivation_lockout_until",
+    "rsssl_plusone_count",
+    "rsssl_port_check_2082",
+    "rsssl_port_check_2222",
+    "rsssl_port_check_8443",
+    "rsssl_redirect_to_settings_page",
+    "rsssl_show_onboarding"
+   ]
+  },
+  "cron": {
+   "added": [
+    "rsssl_every_day_hook",
+    "rsssl_every_five_minutes_hook",
+    "rsssl_every_month_hook",
+    "rsssl_every_three_hours_hook",
+    "rsssl_every_week_hook"
+   ],
+   "left_after_uninstall": []
+  }
+ },
+ "checks": {
+  "admin_logged_in": true
+ }
+}

@@ -1,0 +1,94 @@
+{
+ "slug": "wordpress-seo",
+ "version": "28.9",
+ "wordpress": "7.1.5",
+ "run": "20261124T100031Z",
+ "outbound": [],
+ "browser": {
+  "ran": true,
+  "visitor": {
+   "third_party": [],
+   "cookies": [],
+   "local_storage": []
+  },
+  "admin": {
+   "third_party": [
+    {
+     "host": "yoast.com",
+     "path": "/feed/widget/",
+     "type": "fetch",
+     "count": 1,
+     "query_keys": [
+      "php_version",
+      "wp_version"
+     ]
+    }
+   ],
+   "cookies": [],
+   "local_storage": []
+  }
+ },
+ "dns_hosts": [],
+ "core_calls_ignored": 42,
+ "self_calls": 0,
+ "php": "8.3.37",
+ "mail": [],
+ "caching": {
+  "cache_safe": true,
+  "findings": []
+ },
+ "storage": {
+  "tables": {
+   "added": [
+    "wp_yoast_expiring_store",
+    "wp_yoast_indexable",
+    "wp_yoast_indexable_hierarchy",
+    "wp_yoast_migrations",
+    "wp_yoast_primary_term",
+    "wp_yoast_seo_links"
+   ],
+   "left_after_uninstall": [
+    "wp_yoast_expiring_store",
+    "wp_yoast_indexable",
+    "wp_yoast_indexable_hierarchy",
+    "wp_yoast_migrations",
+    "wp_yoast_primary_term",
+    "wp_yoast_seo_links"
+   ]
+  },
+  "options": {
+   "added": [
+    "wpseo",
+    "wpseo_llmstxt",
+    "wpseo_social",
+    "wpseo_titles",
+    "wpseo_tracking_only",
+    "yoast_migrations_free"
+   ],
+   "left_after_uninstall": [
+    "wpseo",
+    "wpseo_llms_txt_content_hash",
+    "wpseo_llmstxt",
+    "wpseo_social",
+    "wpseo_titles",
+    "wpseo_tracking_only",
+    "yoast_migrations_free"
+   ]
+  },
+  "cron": {
+   "added": [
+    "wpseo-reindex",
+    "wpseo_detect_default_seo_data",
+    "wpseo_expiring_store_cleanup",
+    "wpseo_permalink_structure_check"
+   ],
+   "left_after_uninstall": [
+    "wpseo-reindex",
+    "wpseo_permalink_structure_check"
+   ]
+  }
+ },
+ "checks": {
+  "admin_logged_in": true
+ }
+}

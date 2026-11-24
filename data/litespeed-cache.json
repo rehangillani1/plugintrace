@@ -1,0 +1,325 @@
+{
+ "slug": "litespeed-cache",
+ "version": "7.9.3",
+ "wordpress": "7.1.5",
+ "run": "20261124T100503Z",
+ "outbound": [
+  {
+   "method": "POST",
+   "host": "wpapi.quic.cloud",
+   "path": "/ver_check",
+   "count": 2,
+   "phases": [
+    "activate",
+    "uninstall"
+   ],
+   "contexts": [
+    "cli"
+   ],
+   "code_at": [
+    "src/cloud-request.trait.php:311"
+   ],
+   "body_keys": [
+    "data[php]",
+    "data[service_type]",
+    "data[src]",
+    "data[v]",
+    "main_domain",
+    "site_url",
+    "ver",
+    "wp_pk_b64"
+   ],
+   "query_keys": [],
+   "sends": [
+    "php_version",
+    "site_url"
+   ],
+   "status": [
+    "200"
+   ]
+  },
+  {
+   "method": "GET",
+   "host": "wpapi.quic.cloud",
+   "path": "/news",
+   "count": 1,
+   "phases": [
+    "use"
+   ],
+   "contexts": [
+    "admin"
+   ],
+   "code_at": [
+    "src/cloud-request.trait.php:80"
+   ],
+   "body_keys": [],
+   "query_keys": [
+    "site_url",
+    "ver"
+   ],
+   "sends": [
+    "site_url"
+   ],
+   "status": [
+    "200"
+   ]
+  }
+ ],
+ "browser": {
+  "ran": true,
+  "visitor": {
+   "third_party": [],
+   "cookies": [],
+   "local_storage": []
+  },
+  "admin": {
+   "third_party": [],
+   "cookies": [
+    {
+     "name": "_lscache_vary",
+     "domain": "localhost",
+     "session": true,
+     "http_only": true,
+     "expires": -1
+    }
+   ],
+   "local_storage": []
+  }
+ },
+ "dns_hosts": [
+  {
+   "host": "wpapi.quic.cloud",
+   "phases": [
+    "activate",
+    "uninstall"
+   ],
+   "outside_http_api": false
+  }
+ ],
+ "core_calls_ignored": 42,
+ "self_calls": 1,
+ "php": "8.3.37",
+ "mail": [],
+ "caching": {
+  "cache_safe": true,
+  "findings": []
+ },
+ "storage": {
+  "tables": {
+   "added": [
+    "wp_litespeed_url",
+    "wp_litespeed_url_file"
+   ],
+   "left_after_uninstall": []
+  },
+  "options": {
+   "added": [
+    "litespeed.admin_display.messages",
+    "litespeed.cloud._summary",
+    "litespeed.conf._version",
+    "litespeed.conf.api_key",
+    "litespeed.conf.auto_upgrade",
+    "litespeed.conf.cache",
+    "litespeed.conf.cache-ajax_ttl",
+    "litespeed.conf.cache-browser",
+    "litespeed.conf.cache-commenter",
+    "litespeed.conf.cache-drop_qs",
+    "litespeed.conf.cache-exc",
+    "litespeed.conf.cache-exc_cat",
+    "litespeed.conf.cache-exc_cookies",
+    "litespeed.conf.cache-exc_qs",
+    "litespeed.conf.cache-exc_roles",
+    "litespeed.conf.cache-exc_tag",
+    "litespeed.conf.cache-exc_useragents",
+    "litespeed.conf.cache-force_pub_uri",
+    "litespeed.conf.cache-force_uri",
+    "litespeed.conf.cache-login_cookie",
+    "litespeed.conf.cache-mobile",
+    "litespeed.conf.cache-mobile_rules",
+    "litespeed.conf.cache-page_login",
+    "litespeed.conf.cache-priv",
+    "litespeed.conf.cache-priv_uri",
+    "litespeed.conf.cache-rest",
+    "litespeed.conf.cache-ttl_browser",
+    "litespeed.conf.cache-ttl_feed",
+    "litespeed.conf.cache-ttl_frontpage",
+    "litespeed.conf.cache-ttl_priv",
+    "litespeed.conf.cache-ttl_pub",
+    "litespeed.conf.cache-ttl_rest",
+    "litespeed.conf.cache-ttl_status",
+    "litespeed.conf.cache-vary_cookies",
+    "litespeed.conf.cache-vary_group",
+    "litespeed.conf.cdn",
+    "litespeed.conf.cdn-attr",
+    "litespeed.conf.cdn-cloudflare",
+    "litespeed.conf.cdn-cloudflare_clear",
+    "litespeed.conf.cdn-cloudflare_email",
+    "litespeed.conf.cdn-cloudflare_key",
+    "litespeed.conf.cdn-cloudflare_name",
+    "litespeed.conf.cdn-cloudflare_zone",
+    "litespeed.conf.cdn-exc",
+    "litespeed.conf.cdn-mapping",
+    "litespeed.conf.cdn-ori",
+    "litespeed.conf.cdn-ori_dir",
+    "litespeed.conf.cdn-quic",
+    "litespeed.conf.crawler",
+    "litespeed.conf.crawler-cookies",
+    "litespeed.conf.crawler-crawl_interval",
+    "litespeed.conf.crawler-load_limit",
+    "litespeed.conf.crawler-roles",
+    "litespeed.conf.crawler-sitemap",
+    "litespeed.conf.db_optm-revisions_age",
+    "litespeed.conf.db_optm-revisions_max",
+    "litespeed.conf.debug",
+    "litespeed.conf.debug-collapse_qs",
+    "litespeed.conf.debug-disable_all",
+    "litespeed.conf.debug-disable_tmp",
+    "litespeed.conf.debug-exc",
+    "litespeed.conf.debug-exc_strings",
+    "litespeed.conf.debug-filesize",
+    "litespeed.conf.debug-inc",
+    "litespeed.conf.debug-ips",
+    "litespeed.conf.debug-level",
+    "litespeed.conf.discuss-avatar_cache",
+    "litespeed.conf.discuss-avatar_cache_ttl",
+    "litespeed.conf.discuss-avatar_cron",
+    "litespeed.conf.esi",
+    "litespeed.conf.esi-cache_admbar",
+    "litespeed.conf.esi-cache_commform",
+    "litespeed.conf.esi-nonce",
+    "litespeed.conf.guest",
+    "litespeed.conf.guest_optm",
+    "litespeed.conf.hash",
+    "litespeed.conf.img_optm-auto",
+    "litespeed.conf.img_optm-exif",
+    "litespeed.conf.img_optm-jpg_quality",
+    "litespeed.conf.img_optm-lossless",
+    "litespeed.conf.img_optm-ori",
+    "litespeed.conf.img_optm-rm_bkup",
+    "litespeed.conf.img_optm-sizes_skipped",
+    "litespeed.conf.img_optm-webp",
+    "litespeed.conf.img_optm-webp_attr",
+    "litespeed.conf.img_optm-webp_replace_srcset",
+    "litespeed.conf.media-add_missing_sizes",
+    "litespeed.conf.media-auto_rescale_ori",
+    "litespeed.conf.media-iframe_lazy",
+    "litespeed.conf.media-iframe_lazy_cls_exc",
+    "litespeed.conf.media-iframe_lazy_parent_cls_exc",
+    "litespeed.conf.media-lazy",
+    "litespeed.conf.media-lazy_cls_exc",
+    "litespeed.conf.media-lazy_exc",
+    "litespeed.conf.media-lazy_parent_cls_exc",
+    "litespeed.conf.media-lazy_placeholder",
+    "litespeed.conf.media-lazy_uri_exc",
+    "litespeed.conf.media-lqip",
+    "litespeed.conf.media-lqip_exc",
+    "litespeed.conf.media-lqip_min_h",
+    "litespeed.conf.media-lqip_min_w",
+    "litespeed.conf.media-lqip_qual",
+    "litespeed.conf.media-placeholder_resp",
+    "litespeed.conf.media-placeholder_resp_async",
+    "litespeed.conf.media-placeholder_resp_color",
+    "litespeed.conf.media-placeholder_resp_svg",
+    "litespeed.conf.media-vpi",
+    "litespeed.conf.media-vpi_cron",
+    "litespeed.conf.misc-heartbeat_back",
+    "litespeed.conf.misc-heartbeat_back_ttl",
+    "litespeed.conf.misc-heartbeat_editor",
+    "litespeed.conf.misc-heartbeat_editor_ttl",
+    "litespeed.conf.misc-heartbeat_front",
+    "litespeed.conf.misc-heartbeat_front_ttl",
+    "litespeed.conf.news",
+    "litespeed.conf.object",
+    "litespeed.conf.object-admin",
+    "litespeed.conf.object-db_id",
+    "litespeed.conf.object-global_groups",
+    "litespeed.conf.object-host",
+    "litespeed.conf.object-kind",
+    "litespeed.conf.object-life",
+    "litespeed.conf.object-non_persistent_groups",
+    "litespeed.conf.object-persistent",
+    "litespeed.conf.object-port",
+    "litespeed.conf.object-pswd",
+    "litespeed.conf.object-user",
+    "litespeed.conf.optm-ccss_con",
+    "litespeed.conf.optm-ccss_per_url",
+    "litespeed.conf.optm-ccss_sep_posttype",
+    "litespeed.conf.optm-ccss_sep_uri",
+    "litespeed.conf.optm-ccss_whitelist",
+    "litespeed.conf.optm-css_async",
+    "litespeed.conf.optm-css_async_inline",
+    "litespeed.conf.optm-css_comb",
+    "litespeed.conf.optm-css_comb_ext_inl",
+    "litespeed.conf.optm-css_exc",
+    "litespeed.conf.optm-css_font_display",
+    "litespeed.conf.optm-css_min",
+    "litespeed.conf.optm-dns_preconnect",
+    "litespeed.conf.optm-dns_prefetch",
+    "litespeed.conf.optm-dns_prefetch_ctrl",
+    "litespeed.conf.optm-emoji_rm",
+    "litespeed.conf.optm-exc",
+    "litespeed.conf.optm-exc_roles",
+    "litespeed.conf.optm-ggfonts_async",
+    "litespeed.conf.optm-ggfonts_rm",
+    "litespeed.conf.optm-gm_js_exc",
+    "litespeed.conf.optm-guest_only",
+    "litespeed.conf.optm-html_lazy",
+    "litespeed.conf.optm-html_min",
+    "litespeed.conf.optm-html_skip_comment",
+    "litespeed.conf.optm-js_comb",
+    "litespeed.conf.optm-js_comb_ext_inl",
+    "litespeed.conf.optm-js_defer",
+    "litespeed.conf.optm-js_defer_exc",
+    "litespeed.conf.optm-js_delay_inc",
+    "litespeed.conf.optm-js_exc",
+    "litespeed.conf.optm-js_min",
+    "litespeed.conf.optm-localize",
+    "litespeed.conf.optm-localize_domains",
+    "litespeed.conf.optm-noscript_rm",
+    "litespeed.conf.optm-qs_rm",
+    "litespeed.conf.optm-ucss",
+    "litespeed.conf.optm-ucss_exc",
+    "litespeed.conf.optm-ucss_file_exc_inline",
+    "litespeed.conf.optm-ucss_inline",
+    "litespeed.conf.optm-ucss_whitelist",
+    "litespeed.conf.purge-hook_all",
+    "litespeed.conf.purge-post_a",
+    "litespeed.conf.purge-post_all",
+    "litespeed.conf.purge-post_d",
+    "litespeed.conf.purge-post_f",
+    "litespeed.conf.purge-post_h",
+    "litespeed.conf.purge-post_m",
+    "litespeed.conf.purge-post_p",
+    "litespeed.conf.purge-post_pt",
+    "litespeed.conf.purge-post_pwrp",
+    "litespeed.conf.purge-post_t",
+    "litespeed.conf.purge-post_y",
+    "litespeed.conf.purge-stale",
+    "litespeed.conf.purge-timed_urls",
+    "litespeed.conf.purge-timed_urls_time",
+    "litespeed.conf.purge-upgrade",
+    "litespeed.conf.qc-cname",
+    "litespeed.conf.qc-nameservers",
+    "litespeed.conf.server_ip",
+    "litespeed.conf.util-instant_click",
+    "litespeed.conf.util-no_https_vary",
+    "litespeed.data.upgrading",
+    "litespeed.gui._summary",
+    "litespeed.gui.dismiss",
+    "litespeed.gui.lscwp_whm_install",
+    "litespeed.purge.queue",
+    "litespeed.purge.queue2"
+   ],
+   "left_after_uninstall": []
+  },
+  "cron": {
+   "added": [
+    "litespeed_task_lqip"
+   ],
+   "left_after_uninstall": []
+  }
+ },
+ "checks": {
+  "admin_logged_in": true
+ }
+}

@@ -1,0 +1,56 @@
+{
+ "slug": "google-site-kit",
+ "version": "1.192.0",
+ "wordpress": "7.1.5",
+ "run": "20261124T100821Z",
+ "outbound": [],
+ "browser": {
+  "ran": true,
+  "visitor": {
+   "third_party": [],
+   "cookies": [],
+   "local_storage": []
+  },
+  "admin": {
+   "third_party": [],
+   "cookies": [],
+   "local_storage": []
+  }
+ },
+ "dns_hosts": [],
+ "core_calls_ignored": 42,
+ "self_calls": 0,
+ "php": "8.3.37",
+ "mail": [],
+ "caching": {
+  "cache_safe": true,
+  "findings": []
+ },
+ "storage": {
+  "tables": {
+   "added": [],
+   "left_after_uninstall": []
+  },
+  "options": {
+   "added": [
+    "googlesitekit_db_version",
+    "googlesitekit_has_connected_admins",
+    "googlesitekit_version"
+   ],
+   "left_after_uninstall": [
+    "googlesitekit_db_version",
+    "googlesitekit_has_connected_admins",
+    "googlesitekit_version"
+   ]
+  },
+  "cron": {
+   "added": [
+    "googlesitekit_cron_update_remote_features"
+   ],
+   "left_after_uninstall": []
+  }
+ },
+ "checks": {
+  "admin_logged_in": true
+ }
+}

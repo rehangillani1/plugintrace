@@ -1,0 +1,262 @@
+{
+ "slug": "elementor",
+ "version": "4.4.1",
+ "wordpress": "7.1.5",
+ "run": "20261124T095848Z",
+ "outbound": [
+  {
+   "method": "GET",
+   "host": "my.elementor.com",
+   "path": "/api/v2/info/",
+   "count": 3,
+   "phases": [
+    "use",
+    "uninstall"
+   ],
+   "contexts": [
+    "front",
+    "cli"
+   ],
+   "code_at": [
+    "includes/api.php:83"
+   ],
+   "body_keys": [
+    "api_version",
+    "site_key",
+    "site_lang",
+    "status"
+   ],
+   "query_keys": [],
+   "sends": [],
+   "status": [
+    "200"
+   ]
+  },
+  {
+   "method": "GET",
+   "host": "assets.elementor.com",
+   "path": "/editor-promotions/v1/theme-builder.json",
+   "count": 1,
+   "phases": [
+    "use"
+   ],
+   "contexts": [
+    "admin"
+   ],
+   "code_at": [
+    "includes/editor-assets-api.php:158"
+   ],
+   "body_keys": [],
+   "query_keys": [],
+   "sends": [],
+   "status": [
+    "200"
+   ]
+  },
+  {
+   "method": "GET",
+   "host": "assets.elementor.com",
+   "path": "/editor-promotions/v1/side-menu.json",
+   "count": 1,
+   "phases": [
+    "use"
+   ],
+   "contexts": [
+    "admin"
+   ],
+   "code_at": [
+    "includes/editor-assets-api.php:158"
+   ],
+   "body_keys": [],
+   "query_keys": [],
+   "sends": [],
+   "status": [
+    "200"
+   ]
+  },
+  {
+   "method": "GET",
+   "host": "assets.elementor.com",
+   "path": "/ab-testing/v1/ab-testing.json",
+   "count": 1,
+   "phases": [
+    "use"
+   ],
+   "contexts": [
+    "admin"
+   ],
+   "code_at": [
+    "includes/editor-assets-api.php:158"
+   ],
+   "body_keys": [],
+   "query_keys": [],
+   "sends": [],
+   "status": [
+    "200"
+   ]
+  },
+  {
+   "method": "GET",
+   "host": "assets.elementor.com",
+   "path": "/onboarding/v1/account-screen.json",
+   "count": 1,
+   "phases": [
+    "use"
+   ],
+   "contexts": [
+    "admin"
+   ],
+   "code_at": [
+    "includes/editor-assets-api.php:158"
+   ],
+   "body_keys": [],
+   "query_keys": [],
+   "sends": [],
+   "status": [
+    "200"
+   ]
+  },
+  {
+   "method": "GET",
+   "host": "assets.elementor.com",
+   "path": "/editor-promotions/v1/pointer.json",
+   "count": 1,
+   "phases": [
+    "use"
+   ],
+   "contexts": [
+    "admin"
+   ],
+   "code_at": [
+    "includes/editor-assets-api.php:158"
+   ],
+   "body_keys": [],
+   "query_keys": [],
+   "sends": [],
+   "status": [
+    "200"
+   ]
+  },
+  {
+   "method": "GET",
+   "host": "assets.elementor.com",
+   "path": "/editor-promotions/v1/plugins-page.json",
+   "count": 1,
+   "phases": [
+    "use"
+   ],
+   "contexts": [
+    "admin"
+   ],
+   "code_at": [
+    "includes/editor-assets-api.php:158"
+   ],
+   "body_keys": [],
+   "query_keys": [],
+   "sends": [],
+   "status": [
+    "200"
+   ]
+  }
+ ],
+ "browser": {
+  "ran": true,
+  "visitor": {
+   "third_party": [],
+   "cookies": [],
+   "local_storage": []
+  },
+  "admin": {
+   "third_party": [
+    {
+     "host": "fonts.googleapis.com",
+     "path": "/css2",
+     "type": "stylesheet",
+     "count": 2,
+     "query_keys": [
+      "display",
+      "family",
+      "ver"
+     ]
+    },
+    {
+     "host": "fonts.gstatic.com",
+     "path": "/s/roboto/v51/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBA.woff2",
+     "type": "font",
+     "count": 2,
+     "query_keys": []
+    }
+   ],
+   "cookies": [],
+   "local_storage": []
+  }
+ },
+ "dns_hosts": [],
+ "core_calls_ignored": 43,
+ "self_calls": 0,
+ "php": "8.3.37",
+ "mail": [],
+ "caching": {
+  "cache_safe": true,
+  "findings": []
+ },
+ "storage": {
+  "tables": {
+   "added": [
+    "wp_e_events"
+   ],
+   "left_after_uninstall": [
+    "wp_e_events"
+   ]
+  },
+  "options": {
+   "added": [
+    "_elementor_ab_testing_data",
+    "_elementor_design_system_sync_css_meta",
+    "_elementor_installed_time",
+    "_elementor_onboarding_account_screen_assets",
+    "elementor_active_kit",
+    "elementor_atomic_widgets_db_version",
+    "elementor_events_db_version",
+    "elementor_font_display",
+    "elementor_global_classes_db_version",
+    "elementor_install_history",
+    "elementor_landing_pages_activation",
+    "elementor_plugins_page_assets_data",
+    "elementor_pointer_assets_data",
+    "elementor_remote_info_feed_data",
+    "elementor_side_menu_assets_data",
+    "elementor_theme_builder_promotion_assets_data",
+    "elementor_version"
+   ],
+   "left_after_uninstall": [
+    "_elementor_ab_testing_data",
+    "_elementor_installed_time",
+    "_elementor_onboarding_account_screen_assets",
+    "elementor_active_kit",
+    "elementor_atomic_widgets_db_version",
+    "elementor_connect_site_key",
+    "elementor_events_db_version",
+    "elementor_font_display",
+    "elementor_global_classes_db_version",
+    "elementor_install_history",
+    "elementor_landing_pages_activation",
+    "elementor_plugins_page_assets_data",
+    "elementor_pointer_assets_data",
+    "elementor_remote_info_feed_data",
+    "elementor_side_menu_assets_data",
+    "elementor_theme_builder_promotion_assets_data",
+    "elementor_version"
+   ]
+  },
+  "cron": {
+   "added": [
+    "elementor/tracker/send_event"
+   ],
+   "left_after_uninstall": []
+  }
+ },
+ "checks": {
+  "admin_logged_in": true
+ }
+}

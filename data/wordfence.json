@@ -1,0 +1,287 @@
+{
+ "slug": "wordfence",
+ "version": "9.1.1",
+ "wordpress": "7.1.5",
+ "run": "20261124T101121Z",
+ "outbound": [
+  {
+   "method": "GET",
+   "host": "publicsuffix.org",
+   "path": "/list/public_suffix_list.dat",
+   "count": 1,
+   "phases": [
+    "activate"
+   ],
+   "contexts": [
+    "cli"
+   ],
+   "code_at": [
+    "modules/login-security/classes/utility/url.php:383"
+   ],
+   "body_keys": [],
+   "query_keys": [],
+   "sends": [],
+   "status": [
+    "200"
+   ]
+  },
+  {
+   "method": "GET",
+   "host": "noc4.wordfence.com",
+   "path": "/v1.11/proxy-check/381.txt",
+   "count": 1,
+   "phases": [
+    "activate"
+   ],
+   "contexts": [
+    "cli"
+   ],
+   "code_at": [
+    "lib/wfUtils.php:2879"
+   ],
+   "body_keys": [],
+   "query_keys": [],
+   "sends": [],
+   "status": [
+    "200"
+   ]
+  },
+  {
+   "method": "POST",
+   "host": "noc4.wordfence.com",
+   "path": "/v1.11/",
+   "count": 1,
+   "phases": [
+    "activate"
+   ],
+   "contexts": [
+    "cli"
+   ],
+   "code_at": [
+    "lib/wfUtils.php:2924"
+   ],
+   "body_keys": [
+    "callback",
+    "nonce"
+   ],
+   "query_keys": [
+    "action",
+    "h",
+    "lang",
+    "s",
+    "t"
+   ],
+   "sends": [
+    "site_url"
+   ],
+   "status": [
+    "200"
+   ]
+  },
+  {
+   "method": "POST",
+   "host": "noc1.wordfence.com",
+   "path": "/v2.27/",
+   "count": 1,
+   "phases": [
+    "use"
+   ],
+   "contexts": [
+    "admin"
+   ],
+   "code_at": [
+    "lib/wfAPI.php:119"
+   ],
+   "body_keys": [
+    "plugins"
+   ],
+   "query_keys": [
+    "action",
+    "s"
+   ],
+   "sends": [
+    "php_version",
+    "plugin_list",
+    "site_url",
+    "wordpress_version"
+   ],
+   "status": [
+    "200"
+   ]
+  },
+  {
+   "method": "GET",
+   "host": "noc1.wordfence.com",
+   "path": "/passwords/A2F7F.txt",
+   "count": 1,
+   "phases": [
+    "use"
+   ],
+   "contexts": [
+    "front"
+   ],
+   "code_at": [
+    "lib/wfCredentialsController.php:69"
+   ],
+   "body_keys": [],
+   "query_keys": [],
+   "sends": [],
+   "status": [
+    "200"
+   ]
+  }
+ ],
+ "browser": {
+  "ran": true,
+  "visitor": {
+   "third_party": [],
+   "cookies": [],
+   "local_storage": []
+  },
+  "admin": {
+   "third_party": [],
+   "cookies": [
+    {
+     "name": "wfwaf-authcookie-421aa90e079fa326b6494f812ad13e79",
+     "domain": "localhost",
+     "session": false,
+     "http_only": true,
+     "expires": 1795558348.514195
+    }
+   ],
+   "local_storage": []
+  }
+ },
+ "dns_hosts": [
+  {
+   "host": "0.pool.ntp.org",
+   "phases": [
+    "cron"
+   ],
+   "outside_http_api": true
+  },
+  {
+   "host": "1.pool.ntp.org",
+   "phases": [
+    "cron"
+   ],
+   "outside_http_api": true
+  },
+  {
+   "host": "2.pool.ntp.org",
+   "phases": [
+    "cron"
+   ],
+   "outside_http_api": true
+  },
+  {
+   "host": "3.pool.ntp.org",
+   "phases": [
+    "cron"
+   ],
+   "outside_http_api": true
+  }
+ ],
+ "core_calls_ignored": 43,
+ "self_calls": 0,
+ "php": "8.3.37",
+ "mail": [],
+ "caching": {
+  "cache_safe": true,
+  "findings": []
+ },
+ "storage": {
+  "tables": {
+   "added": [
+    "wp_wfauditevents",
+    "wp_wfblockediplog",
+    "wp_wfblocks7",
+    "wp_wfconfig",
+    "wp_wfcrawlers",
+    "wp_wffilechanges",
+    "wp_wffilemods",
+    "wp_wfhits",
+    "wp_wfhoover",
+    "wp_wfissues",
+    "wp_wfknownfilelist",
+    "wp_wflivetraffichuman",
+    "wp_wflocs",
+    "wp_wflogins",
+    "wp_wfls_2fa_secrets",
+    "wp_wfls_passkeys",
+    "wp_wfls_role_counts",
+    "wp_wfls_settings",
+    "wp_wfnotifications",
+    "wp_wfpendingissues",
+    "wp_wfreversecache",
+    "wp_wfsecurityevents",
+    "wp_wfsnipcache",
+    "wp_wfstatus",
+    "wp_wftrafficrates",
+    "wp_wfwaffailures"
+   ],
+   "left_after_uninstall": [
+    "wp_wfauditevents",
+    "wp_wfblockediplog",
+    "wp_wfblocks7",
+    "wp_wfconfig",
+    "wp_wfcrawlers",
+    "wp_wffilechanges",
+    "wp_wffilemods",
+    "wp_wfhits",
+    "wp_wfhoover",
+    "wp_wfissues",
+    "wp_wfknownfilelist",
+    "wp_wflivetraffichuman",
+    "wp_wflocs",
+    "wp_wflogins",
+    "wp_wfls_2fa_secrets",
+    "wp_wfls_passkeys",
+    "wp_wfls_role_counts",
+    "wp_wfls_settings",
+    "wp_wfnotifications",
+    "wp_wfpendingissues",
+    "wp_wfreversecache",
+    "wp_wfsecurityevents",
+    "wp_wfsnipcache",
+    "wp_wfstatus",
+    "wp_wftrafficrates",
+    "wp_wfwaffailures"
+   ]
+  },
+  "options": {
+   "added": [
+    "wf_plugin_act_error",
+    "wfls_last_role_change",
+    "wordfenceActivated",
+    "wordfence_case",
+    "wordfence_installed",
+    "wordfence_ls_version",
+    "wordfence_version"
+   ],
+   "left_after_uninstall": [
+    "wf_plugin_act_error",
+    "wfls_last_role_change",
+    "wordfenceActivated",
+    "wordfence_case",
+    "wordfence_installed",
+    "wordfence_version"
+   ]
+  },
+  "cron": {
+   "added": [
+    "wordfence_completeCoreUpdateNotification",
+    "wordfence_daily_cron",
+    "wordfence_email_activity_report",
+    "wordfence_hourly_cron",
+    "wordfence_ls_ntp_cron"
+   ],
+   "left_after_uninstall": [
+    "wordfence_completeCoreUpdateNotification"
+   ]
+  }
+ },
+ "checks": {
+  "admin_logged_in": true
+ }
+}

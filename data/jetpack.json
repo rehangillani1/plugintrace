@@ -1,0 +1,90 @@
+{
+ "slug": "jetpack",
+ "version": "16.4",
+ "wordpress": "7.1.5",
+ "run": "20261124T102155Z",
+ "outbound": [
+  {
+   "method": "GET",
+   "host": "jetpack.wordpress.com",
+   "path": "/jetpack.test/1/",
+   "count": 2,
+   "phases": [
+    "use"
+   ],
+   "contexts": [
+    "admin"
+   ],
+   "code_at": [
+    "jetpack_vendor/automattic/jetpack-connection/src/class-client.php:367",
+    "jetpack_vendor/automattic/jetpack-connection/src/class-heartbeat.php:275"
+   ],
+   "body_keys": [],
+   "query_keys": [],
+   "sends": [],
+   "status": [
+    "200"
+   ]
+  }
+ ],
+ "browser": {
+  "ran": true,
+  "visitor": {
+   "third_party": [],
+   "cookies": [],
+   "local_storage": []
+  },
+  "admin": {
+   "third_party": [],
+   "cookies": [],
+   "local_storage": []
+  }
+ },
+ "dns_hosts": [],
+ "core_calls_ignored": 43,
+ "self_calls": 0,
+ "php": "8.3.37",
+ "mail": [],
+ "caching": {
+  "cache_safe": true,
+  "findings": []
+ },
+ "storage": {
+  "tables": {
+   "added": [],
+   "left_after_uninstall": []
+  },
+  "options": {
+   "added": [
+    "do_activate",
+    "jetpack_activated",
+    "jetpack_activation_source",
+    "jetpack_available_modules",
+    "jetpack_options",
+    "jetpack_seo_surface_visible_v2",
+    "jetpack_subscriptions_default_on_migrated",
+    "jetpack_sync_settings_disable",
+    "jetpack_waf_needs_update"
+   ],
+   "left_after_uninstall": [
+    "do_activate",
+    "jetpack_seo_surface_visible_v2",
+    "jetpack_subscriptions_default_on_migrated",
+    "jetpack_waf_needs_update"
+   ]
+  },
+  "cron": {
+   "added": [
+    "jetpack_clean_nonces",
+    "jetpack_stats_transient_cleanup",
+    "jetpack_v2_heartbeat"
+   ],
+   "left_after_uninstall": [
+    "jetpack_stats_transient_cleanup"
+   ]
+  }
+ },
+ "checks": {
+  "admin_logged_in": true
+ }
+}

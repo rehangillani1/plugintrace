@@ -1,0 +1,177 @@
+{
+ "slug": "wpforms-lite",
+ "version": "2.0.5.1",
+ "wordpress": "7.1.5",
+ "run": "20261124T100950Z",
+ "outbound": [
+  {
+   "method": "GET",
+   "host": "wpformsapi.com",
+   "path": "/feeds/v1/splash/",
+   "count": 1,
+   "phases": [
+    "use"
+   ],
+   "contexts": [
+    "admin"
+   ],
+   "code_at": [
+    "src/Helpers/CacheBase.php:383"
+   ],
+   "body_keys": [],
+   "query_keys": [],
+   "sends": [],
+   "status": [
+    "200"
+   ]
+  },
+  {
+   "method": "GET",
+   "host": "wpformsapi.com",
+   "path": "/feeds/v1/addons/",
+   "count": 1,
+   "phases": [
+    "use"
+   ],
+   "contexts": [
+    "admin"
+   ],
+   "code_at": [
+    "src/Helpers/CacheBase.php:383"
+   ],
+   "body_keys": [],
+   "query_keys": [],
+   "sends": [],
+   "status": [
+    "200"
+   ]
+  }
+ ],
+ "browser": {
+  "ran": true,
+  "visitor": {
+   "third_party": [],
+   "cookies": [],
+   "local_storage": []
+  },
+  "admin": {
+   "third_party": [],
+   "cookies": [],
+   "local_storage": []
+  }
+ },
+ "dns_hosts": [],
+ "core_calls_ignored": 42,
+ "self_calls": 0,
+ "php": "8.3.37",
+ "mail": [],
+ "caching": {
+  "cache_safe": true,
+  "findings": []
+ },
+ "storage": {
+  "tables": {
+   "added": [
+    "wp_actionscheduler_actions",
+    "wp_actionscheduler_claims",
+    "wp_actionscheduler_groups",
+    "wp_actionscheduler_logs",
+    "wp_wpforms_analytics_forms",
+    "wp_wpforms_analytics_snapshots",
+    "wp_wpforms_logs",
+    "wp_wpforms_payment_meta",
+    "wp_wpforms_payments",
+    "wp_wpforms_product_events_queue",
+    "wp_wpforms_tasks_meta"
+   ],
+   "left_after_uninstall": [
+    "wp_actionscheduler_actions",
+    "wp_actionscheduler_claims",
+    "wp_actionscheduler_groups",
+    "wp_actionscheduler_logs",
+    "wp_wpforms_analytics_forms",
+    "wp_wpforms_analytics_snapshots",
+    "wp_wpforms_logs",
+    "wp_wpforms_payment_meta",
+    "wp_wpforms_payments",
+    "wp_wpforms_product_events_queue",
+    "wp_wpforms_tasks_meta"
+   ]
+  },
+  "options": {
+   "added": [
+    "_wpforms_transient_addons.json",
+    "_wpforms_transient_cache_htaccess_file",
+    "_wpforms_transient_dashboard_cache_custom_20261109_20261115_usd_lite",
+    "_wpforms_transient_dashboard_cache_custom_20261116_20261122_usd_lite",
+    "_wpforms_transient_existing_tables",
+    "_wpforms_transient_splash.json",
+    "_wpforms_transient_timeout_addons.json",
+    "_wpforms_transient_timeout_dashboard_cache_custom_20261109_20261115_usd_lite",
+    "_wpforms_transient_timeout_dashboard_cache_custom_20261116_20261122_usd_lite",
+    "_wpforms_transient_timeout_existing_tables",
+    "_wpforms_transient_timeout_splash.json",
+    "_wpforms_transient_upload_htaccess_file",
+    "action_scheduler_hybrid_store_demarkation",
+    "action_scheduler_lock_async-request-runner",
+    "schema-ActionScheduler_LoggerSchema",
+    "schema-ActionScheduler_StoreSchema",
+    "widget_wpforms-widget",
+    "wpforms_activated",
+    "wpforms_admin_notices",
+    "wpforms_analytics_aggregation_interval",
+    "wpforms_constant_contact_version",
+    "wpforms_settings",
+    "wpforms_setup_wizard_initial_version",
+    "wpforms_splash_version",
+    "wpforms_templates_cache_version",
+    "wpforms_version",
+    "wpforms_version_lite",
+    "wpforms_versions_lite"
+   ],
+   "left_after_uninstall": [
+    "_wpforms_transient_addons.json",
+    "_wpforms_transient_cache_htaccess_file",
+    "_wpforms_transient_dashboard_cache_custom_20261109_20261115_usd_lite",
+    "_wpforms_transient_dashboard_cache_custom_20261116_20261122_usd_lite",
+    "_wpforms_transient_existing_tables",
+    "_wpforms_transient_splash.json",
+    "_wpforms_transient_timeout_addons.json",
+    "_wpforms_transient_timeout_dashboard_cache_custom_20261109_20261115_usd_lite",
+    "_wpforms_transient_timeout_dashboard_cache_custom_20261116_20261122_usd_lite",
+    "_wpforms_transient_timeout_existing_tables",
+    "_wpforms_transient_timeout_splash.json",
+    "_wpforms_transient_upload_htaccess_file",
+    "action_scheduler_hybrid_store_demarkation",
+    "action_scheduler_lock_async-request-runner",
+    "schema-ActionScheduler_LoggerSchema",
+    "schema-ActionScheduler_StoreSchema",
+    "widget_wpforms-widget",
+    "wpforms_activated",
+    "wpforms_admin_notices",
+    "wpforms_analytics_aggregation_interval",
+    "wpforms_constant_contact_version",
+    "wpforms_settings",
+    "wpforms_setup_wizard_initial_version",
+    "wpforms_splash_version",
+    "wpforms_templates_cache_version",
+    "wpforms_version",
+    "wpforms_version_lite",
+    "wpforms_versions_lite"
+   ]
+  },
+  "cron": {
+   "added": [
+    "action_scheduler_run_queue",
+    "wpforms_email_summaries_cron",
+    "wpforms_weekly_entries_count_cron"
+   ],
+   "left_after_uninstall": [
+    "action_scheduler_run_queue"
+   ]
+  }
+ },
+ "checks": {
+  "admin_logged_in": true
+ }
+}

@@ -1,0 +1,48 @@
+{
+ "slug": "contact-form-7",
+ "version": "6.2.6",
+ "wordpress": "7.1.5",
+ "run": "20261124T100213Z",
+ "outbound": [],
+ "browser": {
+  "ran": true,
+  "visitor": {
+   "third_party": [],
+   "cookies": [],
+   "local_storage": []
+  },
+  "admin": {
+   "third_party": [],
+   "cookies": [],
+   "local_storage": []
+  }
+ },
+ "dns_hosts": [],
+ "core_calls_ignored": 42,
+ "self_calls": 0,
+ "php": "8.3.37",
+ "mail": [],
+ "caching": {
+  "cache_safe": true,
+  "findings": []
+ },
+ "storage": {
+  "tables": {
+   "added": [],
+   "left_after_uninstall": []
+  },
+  "options": {
+   "added": [
+    "wpcf7"
+   ],
+   "left_after_uninstall": []
+  },
+  "cron": {
+   "added": [],
+   "left_after_uninstall": []
+  }
+ },
+ "checks": {
+  "admin_logged_in": true
+ }
+}

@@ -1,0 +1,58 @@
+{
+ "slug": "polylang",
+ "version": "3.9.2",
+ "wordpress": "7.1.5",
+ "run": "20261124T120254Z",
+ "outbound": [],
+ "browser": {
+  "ran": true,
+  "visitor": {
+   "third_party": [],
+   "cookies": [],
+   "local_storage": []
+  },
+  "admin": {
+   "third_party": [],
+   "cookies": [],
+   "local_storage": []
+  }
+ },
+ "dns_hosts": [],
+ "core_calls_ignored": 42,
+ "self_calls": 0,
+ "php": "8.3.37",
+ "mail": [],
+ "caching": {
+  "cache_safe": true,
+  "findings": []
+ },
+ "storage": {
+  "tables": {
+   "added": [],
+   "left_after_uninstall": []
+  },
+  "options": {
+   "added": [
+    "pll_language_from_content_available",
+    "pll_language_taxonomies",
+    "polylang",
+    "polylang_wpml_strings",
+    "widget_polylang"
+   ],
+   "left_after_uninstall": [
+    "pll_language_from_content_available",
+    "pll_language_taxonomies",
+    "polylang",
+    "polylang_wpml_strings",
+    "widget_polylang"
+   ]
+  },
+  "cron": {
+   "added": [],
+   "left_after_uninstall": []
+  }
+ },
+ "checks": {
+  "admin_logged_in": true
+ }
+}

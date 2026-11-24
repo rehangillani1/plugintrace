@@ -1,0 +1,302 @@
+{
+ "slug": "all-in-one-seo-pack",
+ "version": "5.0.5.1",
+ "wordpress": "7.1.5",
+ "run": "20261124T102752Z",
+ "outbound": [
+  {
+   "method": "GET",
+   "host": "aioseo-spell-checker.nyc3.cdn.digitaloceanspaces.com",
+   "path": "/en.zip",
+   "count": 1,
+   "phases": [
+    "activate"
+   ],
+   "contexts": [
+    "cli"
+   ],
+   "code_at": [
+    "app/Common/Traits/Helpers/Api.php:85"
+   ],
+   "body_keys": [],
+   "query_keys": [],
+   "sends": [],
+   "status": [
+    "200"
+   ]
+  },
+  {
+   "method": "GET",
+   "host": "licensing-cdn.aioseo.com",
+   "path": "/keys/lite/all-in-one-seo-pack-pro.json",
+   "count": 3,
+   "phases": [
+    "activate",
+    "use"
+   ],
+   "contexts": [
+    "cli",
+    "ajax"
+   ],
+   "code_at": [
+    "app/Common/Traits/Helpers/Api.php:85"
+   ],
+   "body_keys": [],
+   "query_keys": [],
+   "sends": [],
+   "status": [
+    "200"
+   ]
+  },
+  {
+   "method": "GET",
+   "host": "licensing-cdn.aioseo.com",
+   "path": "/keys/lite/all-in-one-seo-pack-pro-features.json",
+   "count": 1,
+   "phases": [
+    "use"
+   ],
+   "contexts": [
+    "ajax"
+   ],
+   "code_at": [
+    "app/Common/Traits/Helpers/Api.php:85"
+   ],
+   "body_keys": [],
+   "query_keys": [],
+   "sends": [],
+   "status": [
+    "200"
+   ]
+  },
+  {
+   "method": "GET",
+   "host": "plugin-cdn.aioseo.com",
+   "path": "/notifications.json",
+   "count": 1,
+   "phases": [
+    "use"
+   ],
+   "contexts": [
+    "ajax"
+   ],
+   "code_at": [
+    "app/Common/Traits/Helpers/Api.php:85"
+   ],
+   "body_keys": [],
+   "query_keys": [],
+   "sends": [],
+   "status": [
+    "200"
+   ]
+  },
+  {
+   "method": "POST",
+   "host": "licensing.aioseo.com",
+   "path": "/v1/ai/auth/",
+   "count": 1,
+   "phases": [
+    "use"
+   ],
+   "contexts": [
+    "ajax"
+   ],
+   "code_at": [
+    "app/Common/Traits/Helpers/Api.php:54"
+   ],
+   "body_keys": [
+    "domain"
+   ],
+   "query_keys": [],
+   "sends": [
+    "site_url"
+   ],
+   "status": [
+    "200"
+   ]
+  },
+  {
+   "method": "GET",
+   "host": "licensing.aioseo.com",
+   "path": "/v1/ai/credits/",
+   "count": 1,
+   "phases": [
+    "use"
+   ],
+   "contexts": [
+    "ajax"
+   ],
+   "code_at": [
+    "app/Common/Traits/Helpers/Api.php:85"
+   ],
+   "body_keys": [],
+   "query_keys": [],
+   "sends": [],
+   "status": [
+    "200"
+   ]
+  },
+  {
+   "method": "GET",
+   "host": "plugin-cdn.aioseo.com",
+   "path": "/newsroom.json",
+   "count": 1,
+   "phases": [
+    "use"
+   ],
+   "contexts": [
+    "admin"
+   ],
+   "code_at": [
+    "app/Common/Traits/Helpers/Api.php:168"
+   ],
+   "body_keys": [],
+   "query_keys": [],
+   "sends": [],
+   "status": [
+    "200"
+   ]
+  },
+  {
+   "method": "GET",
+   "host": "cdn.aioseo.com",
+   "path": "/wp-content/docs.json",
+   "count": 1,
+   "phases": [
+    "use"
+   ],
+   "contexts": [
+    "admin"
+   ],
+   "code_at": [
+    "app/Common/Traits/Helpers/Api.php:85"
+   ],
+   "body_keys": [],
+   "query_keys": [],
+   "sends": [],
+   "status": [
+    "200"
+   ]
+  },
+  {
+   "method": "GET",
+   "host": "api.wordpress.org",
+   "path": "/plugins/info/1.0/all-in-one-seo-pack.json",
+   "count": 1,
+   "phases": [
+    "cron"
+   ],
+   "contexts": [
+    "cli"
+   ],
+   "code_at": [
+    "app/Common/Traits/Helpers/Api.php:168"
+   ],
+   "body_keys": [],
+   "query_keys": [],
+   "sends": [],
+   "status": [
+    "200"
+   ]
+  }
+ ],
+ "browser": {
+  "ran": true,
+  "visitor": {
+   "third_party": [],
+   "cookies": [],
+   "local_storage": []
+  },
+  "admin": {
+   "third_party": [],
+   "cookies": [],
+   "local_storage": []
+  }
+ },
+ "dns_hosts": [],
+ "core_calls_ignored": 42,
+ "self_calls": 3,
+ "php": "8.3.37",
+ "mail": [],
+ "caching": {
+  "cache_safe": true,
+  "findings": []
+ },
+ "storage": {
+  "tables": {
+   "added": [
+    "wp_actionscheduler_actions",
+    "wp_actionscheduler_claims",
+    "wp_actionscheduler_groups",
+    "wp_actionscheduler_logs",
+    "wp_aioseo_ai_insights_keyword_reports",
+    "wp_aioseo_cache",
+    "wp_aioseo_crawl_cleanup_blocked_args",
+    "wp_aioseo_crawl_cleanup_logs",
+    "wp_aioseo_notifications",
+    "wp_aioseo_posts",
+    "wp_aioseo_seo_analyzer_results",
+    "wp_aioseo_writing_assistant_keywords",
+    "wp_aioseo_writing_assistant_posts"
+   ],
+   "left_after_uninstall": [
+    "wp_actionscheduler_actions",
+    "wp_actionscheduler_claims",
+    "wp_actionscheduler_groups",
+    "wp_actionscheduler_logs",
+    "wp_aioseo_ai_insights_keyword_reports",
+    "wp_aioseo_cache",
+    "wp_aioseo_crawl_cleanup_blocked_args",
+    "wp_aioseo_crawl_cleanup_logs",
+    "wp_aioseo_notifications",
+    "wp_aioseo_posts",
+    "wp_aioseo_seo_analyzer_results",
+    "wp_aioseo_writing_assistant_keywords",
+    "wp_aioseo_writing_assistant_posts"
+   ]
+  },
+  "options": {
+   "added": [
+    "action_scheduler_hybrid_store_demarkation",
+    "action_scheduler_lock_async-request-runner",
+    "aioseo_dynamic_settings_backup",
+    "aioseo_migrations_log",
+    "aioseo_options",
+    "aioseo_options_dynamic",
+    "aioseo_options_dynamic_localized",
+    "aioseo_options_internal",
+    "aioseo_options_internal_lite",
+    "aioseo_options_lite",
+    "aioseo_sensitive_options",
+    "schema-ActionScheduler_LoggerSchema",
+    "schema-ActionScheduler_StoreSchema"
+   ],
+   "left_after_uninstall": [
+    "action_scheduler_hybrid_store_demarkation",
+    "action_scheduler_lock_async-request-runner",
+    "aioseo_dynamic_settings_backup",
+    "aioseo_migrations_log",
+    "aioseo_options",
+    "aioseo_options_dynamic",
+    "aioseo_options_dynamic_localized",
+    "aioseo_options_internal",
+    "aioseo_options_internal_lite",
+    "aioseo_options_lite",
+    "aioseo_sensitive_options",
+    "schema-ActionScheduler_LoggerSchema",
+    "schema-ActionScheduler_StoreSchema"
+   ]
+  },
+  "cron": {
+   "added": [
+    "action_scheduler_run_queue"
+   ],
+   "left_after_uninstall": [
+    "action_scheduler_run_queue"
+   ]
+  }
+ },
+ "checks": {
+  "admin_logged_in": true
+ }
+}

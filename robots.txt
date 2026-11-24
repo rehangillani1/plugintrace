@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://plugintrace.com/sitemap.xml

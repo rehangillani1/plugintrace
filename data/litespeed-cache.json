@@ -1,17 +1,16 @@
 {
  "slug": "litespeed-cache",
- "version": "7.9.3",
+ "version": "7.9.4",
  "wordpress": "7.1.5",
- "run": "20261124T100503Z",
+ "run": "20261124T191826Z",
  "outbound": [
   {
    "method": "POST",
    "host": "wpapi.quic.cloud",
    "path": "/ver_check",
-   "count": 2,
+   "count": 1,
    "phases": [
-    "activate",
-    "uninstall"
+    "activate"
    ],
    "contexts": [
     "cli"
@@ -90,8 +89,7 @@
   {
    "host": "wpapi.quic.cloud",
    "phases": [
-    "activate",
-    "uninstall"
+    "activate"
    ],
    "outside_http_api": false
   }
@@ -247,7 +245,6 @@
     "litespeed.conf.optm-ccss_sep_uri",
     "litespeed.conf.optm-ccss_whitelist",
     "litespeed.conf.optm-css_async",
-    "litespeed.conf.optm-css_async_inline",
     "litespeed.conf.optm-css_comb",
     "litespeed.conf.optm-css_comb_ext_inl",
     "litespeed.conf.optm-css_exc",
@@ -307,6 +304,8 @@
     "litespeed.gui._summary",
     "litespeed.gui.dismiss",
     "litespeed.gui.lscwp_whm_install",
+    "litespeed.health._summary",
+    "litespeed.img_optm.need_pull",
     "litespeed.purge.queue",
     "litespeed.purge.queue2"
    ],

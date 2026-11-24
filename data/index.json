@@ -39,7 +39,7 @@
   {
    "slug": "litespeed-cache",
    "plugin": "LiteSpeed Cache",
-   "version": "7.9.3",
+   "version": "7.9.4",
    "tested": "20261124",
    "report": "https://plugintrace.com/plugins/litespeed-cache/",
    "data": "https://plugintrace.com/data/litespeed-cache.json"
@@ -79,7 +79,7 @@
   {
    "slug": "wpforms-lite",
    "plugin": "WPForms",
-   "version": "2.0.5.1",
+   "version": "2.0.5.2",
    "tested": "20261124",
    "report": "https://plugintrace.com/plugins/wpforms-lite/",
    "data": "https://plugintrace.com/data/wpforms-lite.json"
@@ -103,7 +103,7 @@
   {
    "slug": "wp-mail-smtp",
    "plugin": "WP Mail SMTP by WPForms",
-   "version": "4.10.4",
+   "version": "4.10.5",
    "tested": "20261124",
    "report": "https://plugintrace.com/plugins/wp-mail-smtp/",
    "data": "https://plugintrace.com/data/wp-mail-smtp.json"

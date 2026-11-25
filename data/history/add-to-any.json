@@ -1,0 +1,23 @@
+[
+ {
+  "version": "1.8.18",
+  "run": "20261124T094521Z",
+  "wordpress": "7.1.5",
+  "php": "8.3.37",
+  "method": 2,
+  "summary": {
+   "services": [],
+   "sends": [],
+   "visitor_cookies": [],
+   "visitor_hosts": [
+    "static.addtoany.com"
+   ],
+   "left": {
+    "cron": 0,
+    "options": 2,
+    "tables": 0
+   },
+   "cache_safe": true
+  }
+ }
+]

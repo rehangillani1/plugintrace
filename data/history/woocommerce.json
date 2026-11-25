@@ -1,0 +1,32 @@
+[
+ {
+  "version": "11.3.1",
+  "run": "20261124T100635Z",
+  "wordpress": "7.1.5",
+  "php": "8.3.37",
+  "method": 2,
+  "summary": {
+   "services": [
+    "public-api.wordpress.com",
+    "woocommerce.com"
+   ],
+   "sends": [],
+   "visitor_cookies": [
+    "sbjs_current",
+    "sbjs_current_add",
+    "sbjs_first",
+    "sbjs_first_add",
+    "sbjs_migrations",
+    "sbjs_session",
+    "sbjs_udata"
+   ],
+   "visitor_hosts": [],
+   "left": {
+    "cron": 4,
+    "options": 219,
+    "tables": 40
+   },
+   "cache_safe": true
+  }
+ }
+]

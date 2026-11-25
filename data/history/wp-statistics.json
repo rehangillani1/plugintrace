@@ -1,0 +1,24 @@
+[
+ {
+  "version": "14.16.20",
+  "run": "20261124T120417Z",
+  "wordpress": "7.1.5",
+  "php": "8.3.37",
+  "method": 2,
+  "summary": {
+   "services": [
+    "connect.wp-statistics.com",
+    "wp-statistics.com"
+   ],
+   "sends": [],
+   "visitor_cookies": [],
+   "visitor_hosts": [],
+   "left": {
+    "cron": 5,
+    "options": 10,
+    "tables": 7
+   },
+   "cache_safe": true
+  }
+ }
+]

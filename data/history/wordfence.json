@@ -1,0 +1,30 @@
+[
+ {
+  "version": "9.1.1",
+  "run": "20261124T101121Z",
+  "wordpress": "7.1.5",
+  "php": "8.3.37",
+  "method": 2,
+  "summary": {
+   "services": [
+    "noc1.wordfence.com",
+    "noc4.wordfence.com",
+    "publicsuffix.org"
+   ],
+   "sends": [
+    "php_version",
+    "plugin_list",
+    "site_url",
+    "wordpress_version"
+   ],
+   "visitor_cookies": [],
+   "visitor_hosts": [],
+   "left": {
+    "cron": 1,
+    "options": 6,
+    "tables": 26
+   },
+   "cache_safe": true
+  }
+ }
+]

@@ -1,0 +1,30 @@
+[
+ {
+  "version": "5.0.5.1",
+  "run": "20261124T102752Z",
+  "wordpress": "7.1.5",
+  "php": "8.3.37",
+  "method": 2,
+  "summary": {
+   "services": [
+    "aioseo-spell-checker.nyc3.cdn.digitaloceanspaces.com",
+    "api.wordpress.org",
+    "cdn.aioseo.com",
+    "licensing-cdn.aioseo.com",
+    "licensing.aioseo.com",
+    "plugin-cdn.aioseo.com"
+   ],
+   "sends": [
+    "site_url"
+   ],
+   "visitor_cookies": [],
+   "visitor_hosts": [],
+   "left": {
+    "cron": 1,
+    "options": 13,
+    "tables": 13
+   },
+   "cache_safe": true
+  }
+ }
+]

@@ -1,0 +1,84 @@
+{
+ "slug": "hostinger",
+ "version": "3.0.83",
+ "wordpress": "7.1.5",
+ "run": "20261124T192418Z",
+ "outbound": [],
+ "browser": {
+  "ran": true,
+  "visitor": {
+   "third_party": [],
+   "cookies": [],
+   "local_storage": []
+  },
+  "admin": {
+   "third_party": [],
+   "cookies": [],
+   "local_storage": []
+  }
+ },
+ "dns_hosts": [],
+ "core_calls_ignored": 42,
+ "self_calls": 1,
+ "php": "8.3.37",
+ "mail": [],
+ "caching": {
+  "cache_safe": true,
+  "findings": []
+ },
+ "storage": {
+  "tables": {
+   "added": [
+    "wp_actionscheduler_actions",
+    "wp_actionscheduler_claims",
+    "wp_actionscheduler_groups",
+    "wp_actionscheduler_logs"
+   ],
+   "left_after_uninstall": [
+    "wp_actionscheduler_actions",
+    "wp_actionscheduler_claims",
+    "wp_actionscheduler_groups",
+    "wp_actionscheduler_logs"
+   ]
+  },
+  "options": {
+   "added": [
+    "action_scheduler_hybrid_store_demarkation",
+    "action_scheduler_lock_async-request-runner",
+    "aioseo_activation_redirect",
+    "hostinger_first_login_at",
+    "hostinger_llmstxt_generated_version",
+    "hostinger_tools",
+    "hts_new_installation",
+    "optin_monster_api_activation_redirect_disabled",
+    "schema-ActionScheduler_LoggerSchema",
+    "schema-ActionScheduler_StoreSchema",
+    "wpforms_activation_redirect"
+   ],
+   "left_after_uninstall": [
+    "action_scheduler_hybrid_store_demarkation",
+    "action_scheduler_lock_async-request-runner",
+    "aioseo_activation_redirect",
+    "hostinger_first_login_at",
+    "hostinger_llmstxt_generated_version",
+    "hostinger_tools",
+    "hts_new_installation",
+    "optin_monster_api_activation_redirect_disabled",
+    "schema-ActionScheduler_LoggerSchema",
+    "schema-ActionScheduler_StoreSchema",
+    "wpforms_activation_redirect"
+   ]
+  },
+  "cron": {
+   "added": [
+    "action_scheduler_run_queue"
+   ],
+   "left_after_uninstall": [
+    "action_scheduler_run_queue"
+   ]
+  }
+ },
+ "checks": {
+  "admin_logged_in": true
+ }
+}

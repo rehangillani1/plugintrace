@@ -1,0 +1,21 @@
+[
+ {
+  "version": "2.9.8",
+  "run": "20261124T193121Z",
+  "wordpress": "7.1.5",
+  "php": "8.3.37",
+  "method": 2,
+  "summary": {
+   "services": [],
+   "sends": [],
+   "visitor_cookies": [],
+   "visitor_hosts": [],
+   "left": {
+    "cron": 0,
+    "options": 2,
+    "tables": 0
+   },
+   "cache_safe": true
+  }
+ }
+]

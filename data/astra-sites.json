@@ -1,0 +1,319 @@
+{
+ "slug": "astra-sites",
+ "version": "4.7.12",
+ "wordpress": "7.1.5",
+ "run": "20261124T194148Z",
+ "outbound": [
+  {
+   "method": "GET",
+   "host": "websitedemos.net",
+   "path": "/wp-json/astra-sites/v1/get-last-export-checksums",
+   "count": 1,
+   "phases": [
+    "use"
+   ],
+   "contexts": [
+    "admin"
+   ],
+   "code_at": [
+    "inc/importers/batch-processing/class-astra-sites-batch-processing.php:516"
+   ],
+   "body_keys": [],
+   "query_keys": [],
+   "sends": [],
+   "status": [
+    "200"
+   ]
+  },
+  {
+   "method": "GET",
+   "host": "websitedemos.net",
+   "path": "/wp-content/uploads/all-site-categories.json",
+   "count": 1,
+   "phases": [
+    "use"
+   ],
+   "contexts": [
+    "admin"
+   ],
+   "code_at": [
+    "inc/importers/batch-processing/class-astra-sites-batch-processing-importer.php:61"
+   ],
+   "body_keys": [],
+   "query_keys": [],
+   "sends": [],
+   "status": [
+    "200"
+   ]
+  },
+  {
+   "method": "GET",
+   "host": "websitedemos.net",
+   "path": "/wp-json/wp/v2/astra-sites-site-category/",
+   "count": 1,
+   "phases": [
+    "use"
+   ],
+   "contexts": [
+    "admin"
+   ],
+   "code_at": [
+    "inc/importers/batch-processing/class-astra-sites-batch-processing-importer.php:95"
+   ],
+   "body_keys": [],
+   "query_keys": [
+    "_fields",
+    "hide_empty",
+    "per_page"
+   ],
+   "sends": [],
+   "status": [
+    "200"
+   ]
+  },
+  {
+   "method": "GET",
+   "host": "websitedemos.net",
+   "path": "/wp-json/wp/v2/astra-site-page-builder/",
+   "count": 1,
+   "phases": [
+    "use"
+   ],
+   "contexts": [
+    "admin"
+   ],
+   "code_at": [
+    "inc/importers/batch-processing/class-astra-sites-batch-processing-importer.php:258"
+   ],
+   "body_keys": [],
+   "query_keys": [
+    "_fields",
+    "site_url"
+   ],
+   "sends": [
+    "site_url"
+   ],
+   "status": [
+    "200"
+   ]
+  },
+  {
+   "method": "GET",
+   "host": "websitedemos.net",
+   "path": "/wp-json/astra-blocks/v1/get-blocks-count/",
+   "count": 1,
+   "phases": [
+    "use"
+   ],
+   "contexts": [
+    "admin"
+   ],
+   "code_at": [
+    "inc/importers/batch-processing/class-astra-sites-batch-processing.php:843"
+   ],
+   "body_keys": [],
+   "query_keys": [
+    "page_builder",
+    "wireframe"
+   ],
+   "sends": [],
+   "status": [
+    "200"
+   ]
+  },
+  {
+   "method": "GET",
+   "host": "websitedemos.net",
+   "path": "/wp-json/astra-blocks/v1/blocks/",
+   "count": 4,
+   "phases": [
+    "use"
+   ],
+   "contexts": [
+    "admin"
+   ],
+   "code_at": [
+    "inc/importers/batch-processing/class-astra-sites-batch-processing-importer.php:308"
+   ],
+   "body_keys": [],
+   "query_keys": [
+    "page",
+    "page_builder",
+    "per_page",
+    "wireframe"
+   ],
+   "sends": [],
+   "status": [
+    "200"
+   ]
+  },
+  {
+   "method": "GET",
+   "host": "websitedemos.net",
+   "path": "/wp-json/wp/v2/blocks-category/",
+   "count": 1,
+   "phases": [
+    "use"
+   ],
+   "contexts": [
+    "admin"
+   ],
+   "code_at": [
+    "inc/importers/batch-processing/class-astra-sites-batch-processing-importer.php:163"
+   ],
+   "body_keys": [],
+   "query_keys": [
+    "_fields",
+    "hide_empty",
+    "per_page"
+   ],
+   "sends": [],
+   "status": [
+    "200"
+   ]
+  },
+  {
+   "method": "GET",
+   "host": "websitedemos.net",
+   "path": "/wp-json/astra-sites/v1/get-total-pages/",
+   "count": 1,
+   "phases": [
+    "use"
+   ],
+   "contexts": [
+    "admin"
+   ],
+   "code_at": [
+    "inc/importers/batch-processing/class-astra-sites-batch-processing.php:803"
+   ],
+   "body_keys": [],
+   "query_keys": [
+    "per_page",
+    "spectra-blocks-ver"
+   ],
+   "sends": [],
+   "status": [
+    "200"
+   ]
+  },
+  {
+   "method": "GET",
+   "host": "websitedemos.net",
+   "path": "/wp-json/astra-sites/v1/sites-and-pages/",
+   "count": 47,
+   "phases": [
+    "use"
+   ],
+   "contexts": [
+    "admin"
+   ],
+   "code_at": [
+    "inc/importers/batch-processing/class-astra-sites-batch-processing-importer.php:364"
+   ],
+   "body_keys": [],
+   "query_keys": [
+    "page",
+    "per_page",
+    "spectra-blocks-ver"
+   ],
+   "sends": [],
+   "status": [
+    "200"
+   ]
+  },
+  {
+   "method": "GET",
+   "host": "api.zipwp.com",
+   "path": "/api/plan/current-plan",
+   "count": 1,
+   "phases": [
+    "use"
+   ],
+   "contexts": [
+    "admin"
+   ],
+   "code_at": [
+    "inc/lib/onboarding/classes/class-astra-sites-zipwp-integration.php:150"
+   ],
+   "body_keys": [],
+   "query_keys": [],
+   "sends": [],
+   "status": [
+    "401"
+   ]
+  }
+ ],
+ "browser": {
+  "ran": true,
+  "visitor": {
+   "third_party": [],
+   "cookies": [],
+   "local_storage": []
+  },
+  "admin": {
+   "third_party": [
+    {
+     "host": "fonts.googleapis.com",
+     "path": "/css2",
+     "type": "stylesheet",
+     "count": 2,
+     "query_keys": [
+      "display",
+      "family"
+     ]
+    }
+   ],
+   "cookies": [],
+   "local_storage": []
+  }
+ },
+ "dns_hosts": [],
+ "core_calls_ignored": 43,
+ "self_calls": 0,
+ "php": "8.3.37",
+ "mail": [],
+ "caching": {
+  "cache_safe": true,
+  "findings": []
+ },
+ "storage": {
+  "tables": {
+   "added": [],
+   "left_after_uninstall": []
+  },
+  "options": {
+   "added": [
+    "ast-block-templates-version",
+    "astra-blocks-batch-status-string",
+    "astra-sites-auto-version",
+    "astra-sites-batch-is-complete",
+    "astra-sites-batch-status-string",
+    "astra-sites-fresh-site",
+    "astra-sites-last-export-checksums",
+    "astra-sites-last-export-checksums-latest",
+    "astra_notices_allowed",
+    "astra_sites_recent_import_log_file",
+    "astra_sites_usage_installed_time",
+    "bsf_usage_migrated"
+   ],
+   "left_after_uninstall": [
+    "ast-block-templates-version",
+    "astra-blocks-batch-status-string",
+    "astra-sites-auto-version",
+    "astra-sites-batch-is-complete",
+    "astra-sites-last-export-checksums",
+    "astra-sites-last-export-checksums-latest",
+    "astra_notices_allowed",
+    "astra_sites_usage_installed_time",
+    "bsf_usage_migrated"
+   ]
+  },
+  "cron": {
+   "added": [],
+   "left_after_uninstall": []
+  }
+ },
+ "checks": {
+  "admin_logged_in": true
+ }
+}

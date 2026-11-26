@@ -1,0 +1,244 @@
+{
+ "slug": "google-analytics-for-wordpress",
+ "version": "11.3.0",
+ "wordpress": "7.1.5",
+ "run": "20261124T192712Z",
+ "outbound": [
+  {
+   "method": "GET",
+   "host": "plugin-cdn.monsterinsights.com",
+   "path": "/notifications.json",
+   "count": 1,
+   "phases": [
+    "use"
+   ],
+   "contexts": [
+    "admin"
+   ],
+   "code_at": [
+    "includes/admin/notifications.php:131"
+   ],
+   "body_keys": [],
+   "query_keys": [],
+   "sends": [],
+   "status": [
+    "200"
+   ]
+  },
+  {
+   "method": "GET",
+   "host": "www.monsterinsights.com",
+   "path": "/license-api",
+   "count": 1,
+   "phases": [
+    "use"
+   ],
+   "contexts": [
+    "admin"
+   ],
+   "code_at": [
+    "includes/helpers.php:1260"
+   ],
+   "body_keys": [],
+   "query_keys": [
+    "tgm-updater-action",
+    "tgm-updater-mi-version",
+    "tgm-updater-referer",
+    "tgm-updater-wp-version"
+   ],
+   "sends": [
+    "site_url",
+    "wordpress_version"
+   ],
+   "status": [
+    "200"
+   ]
+  },
+  {
+   "method": "GET",
+   "host": "www.google.com",
+   "path": "/blank.html",
+   "count": 1,
+   "phases": [
+    "cron"
+   ],
+   "contexts": [
+    "cli"
+   ],
+   "code_at": [
+    "includes/api-request.php:518"
+   ],
+   "body_keys": [],
+   "query_keys": [],
+   "sends": [],
+   "status": [
+    "200"
+   ]
+  },
+  {
+   "method": "GET",
+   "host": "api.monsterinsights.com",
+   "path": "/v2/analytics/reports/engagement-pages/",
+   "count": 1,
+   "phases": [
+    "cron"
+   ],
+   "contexts": [
+    "cli"
+   ],
+   "code_at": [
+    "includes/api-request.php:331"
+   ],
+   "body_keys": [
+    "end",
+    "ip",
+    "miversion",
+    "network",
+    "siteurl",
+    "start",
+    "time",
+    "timezone",
+    "wp_timezone"
+   ],
+   "query_keys": [
+    "end",
+    "miversion",
+    "network",
+    "siteurl",
+    "start",
+    "time",
+    "timezone",
+    "wp_timezone"
+   ],
+   "sends": [
+    "site_url"
+   ],
+   "status": [
+    "403"
+   ]
+  },
+  {
+   "method": "GET",
+   "host": "plugin-cdn.monsterinsights.com",
+   "path": "/summaries.json",
+   "count": 1,
+   "phases": [
+    "cron"
+   ],
+   "contexts": [
+    "cli"
+   ],
+   "code_at": [
+    "lite/includes/emails/summaries-infoblocks.php:44"
+   ],
+   "body_keys": [],
+   "query_keys": [],
+   "sends": [],
+   "status": [
+    "200"
+   ]
+  }
+ ],
+ "browser": {
+  "ran": true,
+  "visitor": {
+   "third_party": [],
+   "cookies": [],
+   "local_storage": []
+  },
+  "admin": {
+   "third_party": [],
+   "cookies": [],
+   "local_storage": []
+  }
+ },
+ "dns_hosts": [
+  {
+   "host": "connect.monsterinsights.com",
+   "phases": [
+    "use"
+   ],
+   "outside_http_api": true
+  }
+ ],
+ "core_calls_ignored": 42,
+ "self_calls": 0,
+ "php": "8.3.37",
+ "mail": [],
+ "caching": {
+  "cache_safe": true,
+  "findings": []
+ },
+ "storage": {
+  "tables": {
+   "added": [
+    "wp_monsterinsights_cache"
+   ],
+   "left_after_uninstall": [
+    "wp_monsterinsights_cache"
+   ]
+  },
+  "options": {
+   "added": [
+    "monsterinsights_current_version",
+    "monsterinsights_db_version",
+    "monsterinsights_feedback_tracked_features",
+    "monsterinsights_migration_history",
+    "monsterinsights_migration_log",
+    "monsterinsights_monsterinsights_cache_version",
+    "monsterinsights_notifications",
+    "monsterinsights_notifications_run",
+    "monsterinsights_over_time",
+    "monsterinsights_promo_rotation_start",
+    "monsterinsights_review",
+    "monsterinsights_schema_version",
+    "monsterinsights_schema_version_history",
+    "monsterinsights_settings",
+    "monsterinsights_site_tt",
+    "monsterinsights_sitenotes_installed",
+    "monsterinsights_usage_tracking_config",
+    "widget_monsterinsights-popular-posts-widget"
+   ],
+   "left_after_uninstall": [
+    "monsterinsights_current_version",
+    "monsterinsights_db_version",
+    "monsterinsights_feedback_tracked_features",
+    "monsterinsights_migration_history",
+    "monsterinsights_migration_log",
+    "monsterinsights_monsterinsights_cache_version",
+    "monsterinsights_notifications",
+    "monsterinsights_notifications_run",
+    "monsterinsights_over_time",
+    "monsterinsights_promo_rotation_start",
+    "monsterinsights_review",
+    "monsterinsights_schema_version",
+    "monsterinsights_schema_version_history",
+    "monsterinsights_settings",
+    "monsterinsights_site_tt",
+    "monsterinsights_sitenotes_installed",
+    "monsterinsights_usage_tracking_config",
+    "recovery_mode_email_last_sent",
+    "widget_monsterinsights-popular-posts-widget"
+   ]
+  },
+  "cron": {
+   "added": [
+    "monsterinsights_cache_daily_cleanup",
+    "monsterinsights_charitable_notice_cron",
+    "monsterinsights_email_summaries_cron",
+    "monsterinsights_feature_feedback_checkin",
+    "monsterinsights_feature_feedback_clear_expired",
+    "monsterinsights_product_feed_monthly_check",
+    "monsterinsights_usage_tracking_cron"
+   ],
+   "left_after_uninstall": [
+    "monsterinsights_feature_feedback_checkin",
+    "monsterinsights_feature_feedback_clear_expired",
+    "monsterinsights_product_feed_monthly_check"
+   ]
+  }
+ },
+ "checks": {
+  "admin_logged_in": true
+ }
+}

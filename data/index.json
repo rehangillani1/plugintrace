@@ -2,7 +2,7 @@
  "name": "PluginTrace open data",
  "license": "https://creativecommons.org/licenses/by/4.0/",
  "method": "https://plugintrace.com/method/",
- "updated": "2026-11-24",
+ "updated": "2026-11-25",
  "reports": [
   {
    "slug": "contact-form-7",
@@ -15,7 +15,7 @@
   {
    "slug": "elementor",
    "plugin": "Elementor Agent Ready Website Builder",
-   "version": "4.4.1",
+   "version": "4.4.2",
    "tested": "20261124",
    "report": "https://plugintrace.com/plugins/elementor/",
    "data": "https://plugintrace.com/data/elementor.json"
@@ -117,6 +117,14 @@
    "data": "https://plugintrace.com/data/duplicate-page.json"
   },
   {
+   "slug": "hostinger",
+   "plugin": "Hostinger Tools",
+   "version": "3.0.83",
+   "tested": "20261124",
+   "report": "https://plugintrace.com/plugins/hostinger/",
+   "data": "https://plugintrace.com/data/hostinger.json"
+  },
+  {
    "slug": "jetpack",
    "plugin": "Jetpack",
    "version": "16.4",
@@ -149,6 +157,14 @@
    "data": "https://plugintrace.com/data/duplicate-post.json"
   },
   {
+   "slug": "advanced-custom-fields",
+   "plugin": "Advanced Custom Fields (ACF\u00ae)",
+   "version": "6.8.12",
+   "tested": "20261124",
+   "report": "https://plugintrace.com/plugins/advanced-custom-fields/",
+   "data": "https://plugintrace.com/data/advanced-custom-fields.json"
+  },
+  {
    "slug": "all-in-one-seo-pack",
    "plugin": "All in One SEO",
    "version": "5.0.5.1",
@@ -157,12 +173,76 @@
    "data": "https://plugintrace.com/data/all-in-one-seo-pack.json"
   },
   {
+   "slug": "classic-widgets",
+   "plugin": "Classic Widgets",
+   "version": "0.3",
+   "tested": "20261124",
+   "report": "https://plugintrace.com/plugins/classic-widgets/",
+   "data": "https://plugintrace.com/data/classic-widgets.json"
+  },
+  {
+   "slug": "google-analytics-for-wordpress",
+   "plugin": "MonsterInsights",
+   "version": "11.3.0",
+   "tested": "20261124",
+   "report": "https://plugintrace.com/plugins/google-analytics-for-wordpress/",
+   "data": "https://plugintrace.com/data/google-analytics-for-wordpress.json"
+  },
+  {
    "slug": "redirection",
    "plugin": "Redirection",
    "version": "5.10.1",
    "tested": "20261124",
    "report": "https://plugintrace.com/plugins/redirection/",
    "data": "https://plugintrace.com/data/redirection.json"
+  },
+  {
+   "slug": "header-footer-elementor",
+   "plugin": "Ultimate Addons for Elementor",
+   "version": "2.9.8",
+   "tested": "20261124",
+   "report": "https://plugintrace.com/plugins/header-footer-elementor/",
+   "data": "https://plugintrace.com/data/header-footer-elementor.json"
+  },
+  {
+   "slug": "wordpress-importer",
+   "plugin": "WordPress Importer",
+   "version": "0.9.7",
+   "tested": "20261124",
+   "report": "https://plugintrace.com/plugins/wordpress-importer/",
+   "data": "https://plugintrace.com/data/wordpress-importer.json"
+  },
+  {
+   "slug": "all-in-one-wp-security-and-firewall",
+   "plugin": "All-In-One Security (AIOS)",
+   "version": "5.5.1",
+   "tested": "20261125",
+   "report": "https://plugintrace.com/plugins/all-in-one-wp-security-and-firewall/",
+   "data": "https://plugintrace.com/data/all-in-one-wp-security-and-firewall.json"
+  },
+  {
+   "slug": "better-search-replace",
+   "plugin": "Better Search Replace",
+   "version": "1.4.11",
+   "tested": "20261125",
+   "report": "https://plugintrace.com/plugins/better-search-replace/",
+   "data": "https://plugintrace.com/data/better-search-replace.json"
+  },
+  {
+   "slug": "code-snippets",
+   "plugin": "Code Snippets",
+   "version": "4.1.0",
+   "tested": "20261124",
+   "report": "https://plugintrace.com/plugins/code-snippets/",
+   "data": "https://plugintrace.com/data/code-snippets.json"
+  },
+  {
+   "slug": "astra-sites",
+   "plugin": "Starter Templates",
+   "version": "4.7.12",
+   "tested": "20261124",
+   "report": "https://plugintrace.com/plugins/astra-sites/",
+   "data": "https://plugintrace.com/data/astra-sites.json"
   },
   {
    "slug": "polylang",

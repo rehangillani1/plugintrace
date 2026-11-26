@@ -1,8 +1,8 @@
 {
  "slug": "elementor",
- "version": "4.4.1",
+ "version": "4.4.2",
  "wordpress": "7.1.5",
- "run": "20261124T095848Z",
+ "run": "20261124T191614Z",
  "outbound": [
   {
    "method": "GET",
@@ -18,7 +18,7 @@
     "cli"
    ],
    "code_at": [
-    "includes/api.php:83"
+    "includes/api.php:88"
    ],
    "body_keys": [
     "api_version",
@@ -222,6 +222,8 @@
     "elementor_global_classes_db_version",
     "elementor_install_history",
     "elementor_landing_pages_activation",
+    "elementor_onboarding_activated_at",
+    "elementor_onboarding_redirect_event_queue",
     "elementor_plugins_page_assets_data",
     "elementor_pointer_assets_data",
     "elementor_remote_info_feed_data",
@@ -241,6 +243,8 @@
     "elementor_global_classes_db_version",
     "elementor_install_history",
     "elementor_landing_pages_activation",
+    "elementor_onboarding_activated_at",
+    "elementor_onboarding_redirect_event_queue",
     "elementor_plugins_page_assets_data",
     "elementor_pointer_assets_data",
     "elementor_remote_info_feed_data",

@@ -1,0 +1,26 @@
+[
+ {
+  "version": "4.7.12",
+  "run": "20261124T194148Z",
+  "wordpress": "7.1.5",
+  "php": "8.3.37",
+  "method": 2,
+  "summary": {
+   "services": [
+    "api.zipwp.com",
+    "websitedemos.net"
+   ],
+   "sends": [
+    "site_url"
+   ],
+   "visitor_cookies": [],
+   "visitor_hosts": [],
+   "left": {
+    "cron": 0,
+    "options": 9,
+    "tables": 0
+   },
+   "cache_safe": true
+  }
+ }
+]

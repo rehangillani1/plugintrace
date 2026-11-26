@@ -1,8 +1,9 @@
 {
  "slug": "all-in-one-seo-pack",
- "version": "5.0.5.1",
+ "version": "5.0.6.1",
  "wordpress": "7.1.5",
- "run": "20261124T102752Z",
+ "run": "20261126T012019Z",
+ "method": 2,
  "outbound": [
   {
    "method": "GET",
@@ -117,27 +118,6 @@
   },
   {
    "method": "GET",
-   "host": "licensing.aioseo.com",
-   "path": "/v1/ai/credits/",
-   "count": 1,
-   "phases": [
-    "use"
-   ],
-   "contexts": [
-    "ajax"
-   ],
-   "code_at": [
-    "app/Common/Traits/Helpers/Api.php:85"
-   ],
-   "body_keys": [],
-   "query_keys": [],
-   "sends": [],
-   "status": [
-    "200"
-   ]
-  },
-  {
-   "method": "GET",
    "host": "plugin-cdn.aioseo.com",
    "path": "/newsroom.json",
    "count": 1,
@@ -149,6 +129,27 @@
    ],
    "code_at": [
     "app/Common/Traits/Helpers/Api.php:168"
+   ],
+   "body_keys": [],
+   "query_keys": [],
+   "sends": [],
+   "status": [
+    "200"
+   ]
+  },
+  {
+   "method": "GET",
+   "host": "licensing.aioseo.com",
+   "path": "/v1/ai/credits/",
+   "count": 1,
+   "phases": [
+    "use"
+   ],
+   "contexts": [
+    "ajax"
+   ],
+   "code_at": [
+    "app/Common/Traits/Helpers/Api.php:85"
    ],
    "body_keys": [],
    "query_keys": [],
@@ -214,7 +215,7 @@
   }
  },
  "dns_hosts": [],
- "core_calls_ignored": 42,
+ "core_calls_ignored": 43,
  "self_calls": 3,
  "php": "8.3.37",
  "mail": [],

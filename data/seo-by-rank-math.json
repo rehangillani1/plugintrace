@@ -1,8 +1,9 @@
 {
  "slug": "seo-by-rank-math",
- "version": "1.0.282",
+ "version": "1.0.283",
  "wordpress": "7.1.5",
- "run": "20261124T101558Z",
+ "run": "20261125T131735Z",
+ "method": 2,
  "outbound": [],
  "browser": {
   "ran": true,

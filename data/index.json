@@ -2,7 +2,7 @@
  "name": "PluginTrace open data",
  "license": "https://creativecommons.org/licenses/by/4.0/",
  "method": "https://plugintrace.com/method/",
- "updated": "2026-11-25",
+ "updated": "2026-11-26",
  "reports": [
   {
    "slug": "contact-form-7",
@@ -87,8 +87,8 @@
   {
    "slug": "seo-by-rank-math",
    "plugin": "Rank Math SEO",
-   "version": "1.0.282",
-   "tested": "20261124",
+   "version": "1.0.283",
+   "tested": "20261125",
    "report": "https://plugintrace.com/plugins/seo-by-rank-math/",
    "data": "https://plugintrace.com/data/seo-by-rank-math.json"
   },
@@ -119,8 +119,8 @@
   {
    "slug": "hostinger",
    "plugin": "Hostinger Tools",
-   "version": "3.0.83",
-   "tested": "20261124",
+   "version": "3.0.84",
+   "tested": "20261125",
    "report": "https://plugintrace.com/plugins/hostinger/",
    "data": "https://plugintrace.com/data/hostinger.json"
   },
@@ -167,8 +167,8 @@
   {
    "slug": "all-in-one-seo-pack",
    "plugin": "All in One SEO",
-   "version": "5.0.5.1",
-   "tested": "20261124",
+   "version": "5.0.6.1",
+   "tested": "20261126",
    "report": "https://plugintrace.com/plugins/all-in-one-seo-pack/",
    "data": "https://plugintrace.com/data/all-in-one-seo-pack.json"
   },
@@ -231,16 +231,16 @@
   {
    "slug": "code-snippets",
    "plugin": "Code Snippets",
-   "version": "4.1.0",
-   "tested": "20261124",
+   "version": "4.1.1",
+   "tested": "20261126",
    "report": "https://plugintrace.com/plugins/code-snippets/",
    "data": "https://plugintrace.com/data/code-snippets.json"
   },
   {
    "slug": "astra-sites",
    "plugin": "Starter Templates",
-   "version": "4.7.12",
-   "tested": "20261124",
+   "version": "4.7.13",
+   "tested": "20261125",
    "report": "https://plugintrace.com/plugins/astra-sites/",
    "data": "https://plugintrace.com/data/astra-sites.json"
   },
@@ -255,8 +255,8 @@
   {
    "slug": "wp-statistics",
    "plugin": "WP Statistics",
-   "version": "14.16.20",
-   "tested": "20261124",
+   "version": "14.17.0",
+   "tested": "20261125",
    "report": "https://plugintrace.com/plugins/wp-statistics/",
    "data": "https://plugintrace.com/data/wp-statistics.json"
   },

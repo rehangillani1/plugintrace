@@ -1,8 +1,9 @@
 {
  "slug": "code-snippets",
- "version": "4.1.0",
+ "version": "4.1.1",
  "wordpress": "7.1.5",
- "run": "20261124T193421Z",
+ "run": "20261126T012154Z",
+ "method": 2,
  "outbound": [
   {
    "method": "GET",
@@ -16,7 +17,7 @@
     "admin"
    ],
    "code_at": [
-    "php/Client/Welcome_Client.php:225"
+    "php/Client/Welcome_Client.php:243"
    ],
    "body_keys": [],
    "query_keys": [],

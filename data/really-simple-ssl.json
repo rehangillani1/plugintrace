@@ -1,8 +1,9 @@
 {
  "slug": "really-simple-ssl",
- "version": "9.8.4",
+ "version": "9.8.5",
  "wordpress": "7.1.5",
- "run": "20261124T102335Z",
+ "run": "20261127T011822Z",
+ "method": 2,
  "outbound": [],
  "browser": {
   "ran": true,

@@ -2,7 +2,7 @@
  "name": "PluginTrace open data",
  "license": "https://creativecommons.org/licenses/by/4.0/",
  "method": "https://plugintrace.com/method/",
- "updated": "2026-11-26",
+ "updated": "2026-11-27",
  "reports": [
   {
    "slug": "contact-form-7",
@@ -55,8 +55,8 @@
   {
    "slug": "all-in-one-wp-migration",
    "plugin": "All-in-One WP Migration and Backup",
-   "version": "7.113",
-   "tested": "20261124",
+   "version": "7.114",
+   "tested": "20261127",
    "report": "https://plugintrace.com/plugins/all-in-one-wp-migration/",
    "data": "https://plugintrace.com/data/all-in-one-wp-migration.json"
   },
@@ -135,8 +135,8 @@
   {
    "slug": "really-simple-ssl",
    "plugin": "Really Simple Security",
-   "version": "9.8.4",
-   "tested": "20261124",
+   "version": "9.8.5",
+   "tested": "20261127",
    "report": "https://plugintrace.com/plugins/really-simple-ssl/",
    "data": "https://plugintrace.com/data/really-simple-ssl.json"
   },

@@ -2,7 +2,7 @@
  "name": "PluginTrace open data",
  "license": "https://creativecommons.org/licenses/by/4.0/",
  "method": "https://plugintrace.com/method/",
- "updated": "2026-11-27",
+ "updated": "2026-11-28",
  "reports": [
   {
    "slug": "contact-form-7",
@@ -255,8 +255,8 @@
   {
    "slug": "wp-statistics",
    "plugin": "WP Statistics",
-   "version": "14.17.0",
-   "tested": "20261125",
+   "version": "14.17.1",
+   "tested": "20261128",
    "report": "https://plugintrace.com/plugins/wp-statistics/",
    "data": "https://plugintrace.com/data/wp-statistics.json"
   },

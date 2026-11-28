@@ -1,8 +1,8 @@
 {
  "slug": "wp-statistics",
- "version": "14.17.0",
+ "version": "14.17.1",
  "wordpress": "7.1.5",
- "run": "20261125T132633Z",
+ "run": "20261128T012645Z",
  "method": 2,
  "outbound": [
   {
